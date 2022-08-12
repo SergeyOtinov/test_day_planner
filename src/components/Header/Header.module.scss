@@ -1,0 +1,18 @@
+.header {
+	box-sizing: border-box;
+	width: calc(100vw - var(--footer-width));
+	font-family: var(--font-2-regular);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+	height: var(--header-height);
+	& > h1 {
+		font-size: 30px;
+	}
+	@media (max-width: 800px) {
+		& > h1 {
+			font-size: 20px;
+		}
+	}
+}

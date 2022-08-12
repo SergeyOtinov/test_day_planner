@@ -1,0 +1,22 @@
+.wrapper {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0 0 var(--footer-width);
+}
+
+.cap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--color-third);
+	height: var(--cap-height);
+}
+
+@media (max-width: 800px) {
+	.wrapper {
+		padding: 0 0 0 var(--footer-width);
+	}
+}

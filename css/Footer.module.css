@@ -1,0 +1,17 @@
+.footer {
+  position: absolute;
+  left: 0;
+  top: var(--header-height);
+  background-color: var(--color-second);
+  width: var(--footer-width);
+  height: calc(100vh - var(--header-height));
+}
+
+.user_icon {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

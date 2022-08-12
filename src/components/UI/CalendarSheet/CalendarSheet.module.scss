@@ -1,0 +1,21 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	font-size: 22px;
+	.next,
+	.previous {
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		border: none;
+		background-image: url(/assets/images/svg/arrow.svg);
+		cursor: pointer;
+	}
+	.previous {
+		margin-right: 10px;
+	}
+	.next {
+		margin-left: 10px;
+		transform: rotate(180deg);
+	}
+}

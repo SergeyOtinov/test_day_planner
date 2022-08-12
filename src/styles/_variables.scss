@@ -1,0 +1,18 @@
+:root {
+	--font-1-regular: "Caveat-Regular", sans-serif;
+	--font-2-regular: "Montserrat-Regular", sans-serif;
+	--cap-height: 80px;
+	--header-height: 80px;
+	--footer-width: 300px;
+	--color-first: #f7f7f7;
+	--color-second: #454545;
+	--color-third: #eceff0;
+	--color-fourth: #c5c5c5;
+	--color-fifth: #4ca7ae;
+}
+
+@media (max-width: 800px) {
+	:root {
+		--footer-width: 0;
+	}
+}
